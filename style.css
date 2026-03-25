@@ -1,0 +1,378 @@
+body {
+    font-family: Book Antiqua;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    background-color: #ffffff;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between; /* This ensures one item goes left and the other right */
+    align-items: center;
+    padding: 10px;
+    background-color: #f7e7ce; /* Optional background */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* Style for .emri */
+.emri {
+    margin-left: 15px;
+    font-family: Bradley Hand ITC;
+    font-size: 25px;
+    color: black;
+    left:8px;
+}
+
+/* Style for .navbar */
+.navbar {
+    display: flex;
+    gap: 10px; 
+    font-size: 18px;
+    background-color: #f7e7ce; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+
+/* Style for the carousel container */
+.carousel-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.carousel {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 300px; 
+    margin-right: 10px;
+}
+
+        /* Style for the carousel buttons */
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+    z-index: 1;
+}
+
+.next {
+    right: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.typing-container {
+    width: fit-content;   
+    top: 40px;
+    margin-bottom: 1px;
+    margin-left: 4px;
+}
+
+.typing-text {
+    display: inline-block;
+    white-space: nowrap; /* Prevents line breaks */
+    overflow: hidden; /* Hides text that overflows */
+    font-size: 30px;
+    color: black;
+    padding: 0 10px; /* Optional: Add padding for better appearance */
+}
+
+
+/* Container for the profile image and text */
+.profile-container {
+    display: flex; /* Aligns items side by side */
+    align-items: center; /* Vertically aligns items */
+    padding: 10px;
+    max-width: 1000px; /* Control max width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style for the profile image */
+.fotoja-profilit img {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits inside the circle */
+    margin-right: 20px; /* Adds space between the image and the text */
+}
+
+/* Style for the text */
+.shkrimi-vetes {
+    font-family: 'Book Antiqua', sans-serif;
+    font-size: 16px;
+    line-height: 1.6; /* Improves readability */
+    color: #333; /* Text color */
+    max-width: 600px; /* Control text width */
+}
+
+/*styles for prices*/
+
+.packages {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.package-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Two items per row */
+    gap: 20px;
+}
+
+.package {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.package h2 {
+    color: #e67e22;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+ul li strong {
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .package-grid {
+        grid-template-columns: 1fr; /* Single column layout for small screens */
+    }
+
+    .packages {
+        padding: 10px;
+    }
+
+    .package h2 {
+        font-size: 20px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+}
+
+
+
+.contact-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #e67e22;
+    font-weight: bold;
+}
+
+.social-links p {
+    margin: 10px 0;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
+
+
+/*captures section*/
+.photo-package-wrapper {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.photo-package-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Two items per row */
+    gap: 20px;
+}
+
+.photo-package-item {
+    text-align: center;
+}
+
+.photo-package-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.package-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition effect */
+    overflow: hidden;
+}
+
+.package-card:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.package-image {
+    width: 100%;
+    height: 60%;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Smooth transition for image */
+}
+
+.package-title {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.package-card:hover .package-image {
+    transform: scale(1.05); /* Slight zoom on the image too */
+}
+
+@media (max-width: 600px) {
+    .photo-package-grid {
+        grid-template-columns: 1fr; /* Single column layout for small screens */
+    }
+
+    .photo-package-wrapper {
+        padding: 10px;
+    }
+
+    .package-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .carousel img {
+        width: 100%;
+        height: auto;
+    }
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .fotoja-profilit img {
+        margin: 0 auto 10px;
+    }
+    .packages {
+        padding: 10px;
+    }
+    .package-grid {
+        grid-template-columns: 1fr;
+    }
+}
