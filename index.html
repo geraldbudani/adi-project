@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Lukani Photography | Freelance Photographer in Stockholm, Sweden</title>
+    <meta name="description" content="Peter Lukani is a freelance photographer based in Stockholm, Sweden, specialising in weddings, portraits, couples, events, and lifestyle photography. Book a session today.">
+    <meta name="author" content="Peter Lukani">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.peterlphotography.com/">
+    <meta property="og:type"        content="website">
+    <meta property="og:url"         content="https://www.peterlphotography.com/">
+    <meta property="og:title"       content="Peter Lukani Photography | Stockholm Freelance Photographer">
+    <meta property="og:description" content="Capturing moments that endure. Freelance photographer in Stockholm — weddings, portraits, events and more.">
+    <meta property="og:image"       content="https://www.peterlphotography.com/assets/celebretes/Img1.JPG">
+    <meta name="twitter:card"       content="summary_large_image">
+    <meta name="geo.region"         content="SE-AB">
+    <meta name="geo.placename"      content="Stockholm, Sweden">
+    <meta name="theme-color"        content="#0e0e0c">
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"LocalBusiness","name":"Peter Lukani Photography","url":"https://www.peterlphotography.com/","telephone":"+46738995398","email":"peterlukaniphotography@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Stockholm","addressCountry":"SE"},"sameAs":["https://www.instagram.com/peterlphotography/"],"priceRange":"3000 SEK – 12000 SEK"}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Tenor+Sans&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <div id="loader">
+        <div class="loader-text">Peter Lukani</div>
+        <div class="loader-line"></div>
+    </div>
+
+    <div class="nav-overlay" id="navOverlay">
+        <a href="#hero"     onclick="closeNav()">Home</a>
+        <a href="#about"    onclick="closeNav()">About</a>
+        <a href="#packages" onclick="closeNav()">Packages</a>
+        <a href="#captures" onclick="closeNav()">Captures</a>
+        <a href="#contact"  onclick="closeNav()">Contact</a>
+    </div>
+
+    <!-- HEADER -->
+    <header id="header">
+        <a class="logo" href="#hero">Peter <span>Lukani</span></a>
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#packages">Packages</a>
+            <a href="#captures">Captures</a>
+            <a href="#contact" class="nav-cta">Book Now</a>
+        </nav>
+        <button class="hamburger" id="hamburger" onclick="toggleNav()" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" aria-label="Introduction">
+        <div class="hero-bg"></div>
+        <div class="hero-grain"></div>
+        <div class="hero-content">
+            <p class="hero-label">Stockholm, Sweden · Est. 2020</p>
+            <h1 class="hero-title">Moments<br>that <em>endure</em></h1>
+            <p class="hero-subtitle">Freelance photographer capturing the essence of every story — from intimate portraits to grand celebrations.</p>
+            <div class="hero-actions">
+                <a href="#captures" class="btn-primary">View Portfolio</a>
+                <a href="#contact"  class="btn-outline">Book a Session</a>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-wrap" aria-hidden="true">
+        <div class="marquee-track">
+            <span>Portraits</span><span><b>✦</b></span>
+            <span>Weddings &amp; Events</span><span><b>✦</b></span>
+            <span>Couples</span><span><b>✦</b></span>
+            <span>Editorial</span><span><b>✦</b></span>
+            <span>Nature &amp; Places</span><span><b>✦</b></span>
+            <span>Lifestyle</span><span><b>✦</b></span>
+            <span>Portraits</span><span><b>✦</b></span>
+            <span>Weddings &amp; Events</span><span><b>✦</b></span>
+            <span>Couples</span><span><b>✦</b></span>
+            <span>Editorial</span><span><b>✦</b></span>
+            <span>Nature &amp; Places</span><span><b>✦</b></span>
+            <span>Lifestyle</span><span><b>✦</b></span>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" aria-label="About Peter Lukani">
+        <div class="about-visual reveal">
+            <div class="about-photo-frame">
+                <img src="assests/profile-pic.jpg"
+                     alt="Peter Lukani — Freelance Photographer Stockholm"
+                     style="width:100%;height:100%;object-fit:cover;display:block">
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <span class="stat-number" data-count="5">0</span>
+                    <span class="stat-label">Years</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="320">0</span>
+                    <span class="stat-label">Sessions</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="7">0</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+            </div>
+        </div>
+        <div class="about-text">
+            <div class="section-header reveal">
+                <p class="section-tag">About</p>
+                <h2 class="section-title">Hello from<br><em>Stockholm</em></h2>
+            </div>
+            <p class="about-body reveal reveal-delay-1">Welcome to my world, where moments come to life through the lens of creativity. I am Peter Lukani — a passionate freelance photographer with a keen eye for capturing the essence of every story.</p>
+            <p class="about-body reveal reveal-delay-2">I bring a unique blend of technical expertise and artistic flair to every project, dedicated to crafting images that resonate with authenticity and emotion.</p>
+            <div class="reveal reveal-delay-3">
+                <div class="about-detail">Based in Stockholm, Sweden</div>
+                <div class="about-detail">Available for travel worldwide</div>
+                <div class="about-detail">Fluent in English &amp; Albanian</div>
+            </div>
+            <div style="margin-top:40px" class="reveal reveal-delay-4">
+                <a href="#contact" class="btn-primary">Let's Work Together</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section id="packages" aria-label="Photography Packages">
+        <div class="packages-inner">
+            <div class="section-header reveal">
+                <p class="section-tag">Investment</p>
+                <h2 class="section-title">Photography<br><em>Packages</em></h2>
+            </div>
+            <div class="packages-grid">
+                <div class="pkg-card reveal reveal-delay-1">
+                    <p class="pkg-tier">01 — Entry</p>
+                    <h3 class="pkg-name">Basic</h3>
+                    <div class="pkg-price">3,000 <span>SEK</span></div>
+                    <p class="pkg-duration">1.5 hours</p>
+                    <div class="pkg-divider"></div>
+                    <div class="pkg-feature">Portrait session</div>
+                    <div class="pkg-feature">Short ceremony</div>
+                    <div class="pkg-images">50 <span>digital images</span></div>
+                    <a href="#contact" class="pkg-btn">Book This</a>
+                </div>
+                <div class="pkg-card reveal reveal-delay-2">
+                    <p class="pkg-tier">02 — Standard</p>
+                    <h3 class="pkg-name">Basic Plus</h3>
+                    <div class="pkg-price">5,000 <span>SEK</span></div>
+                    <p class="pkg-duration">3 hours</p>
+                    <div class="pkg-divider"></div>
+                    <div class="pkg-feature">Portraits</div>
+                    <div class="pkg-feature">Ceremony</div>
+                    <div class="pkg-feature">Group pictures</div>
+                    <div class="pkg-images">150 <span>digital images</span></div>
+                    <a href="#contact" class="pkg-btn">Book This</a>
+                </div>
+                <div class="pkg-card featured reveal reveal-delay-3">
+                    <p class="pkg-tier">03 — Popular</p>
+                    <h3 class="pkg-name">Premium</h3>
+                    <div class="pkg-price">7,000 <span>SEK</span></div>
+                    <p class="pkg-duration">5 hours</p>
+                    <div class="pkg-divider"></div>
+                    <div class="pkg-feature">Getting ready</div>
+                    <div class="pkg-feature">Portraits</div>
+                    <div class="pkg-feature">Ceremony</div>
+                    <div class="pkg-feature">Group pictures</div>
+                    <div class="pkg-images">250 <span>digital images</span></div>
+                    <a href="#contact" class="pkg-btn">Book This</a>
+                </div>
+                <div class="pkg-card reveal reveal-delay-4">
+                    <p class="pkg-tier">04 — Extended</p>
+                    <h3 class="pkg-name">Premium Plus</h3>
+                    <div class="pkg-price">8,000 <span>SEK</span></div>
+                    <p class="pkg-duration">8 hours</p>
+                    <div class="pkg-divider"></div>
+                    <div class="pkg-feature">Getting ready</div>
+                    <div class="pkg-feature">Portraits + Dinner</div>
+                    <div class="pkg-feature">Cake cutting</div>
+                    <div class="pkg-images">350 <span>digital images</span></div>
+                    <a href="#contact" class="pkg-btn">Book This</a>
+                </div>
+                <div class="pkg-card reveal reveal-delay-4">
+                    <p class="pkg-tier">05 — Full Day</p>
+                    <h3 class="pkg-name">Deluxe</h3>
+                    <div class="pkg-price">12,000 <span>SEK</span></div>
+                    <p class="pkg-duration">12 hours</p>
+                    <div class="pkg-divider"></div>
+                    <div class="pkg-feature">Full day coverage</div>
+                    <div class="pkg-feature">Ceremony to party</div>
+                    <div class="pkg-feature">First dance + more</div>
+                    <div class="pkg-images">450 <span>digital images</span></div>
+                    <a href="#contact" class="pkg-btn">Book This</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAPTURES -->
+    <section id="captures" aria-label="Photography Portfolio">
+        <div class="captures-inner">
+            <div class="section-header reveal">
+                <p class="section-tag">Portfolio</p>
+                <h2 class="section-title">Visual<br><em>Captures</em></h2>
+            </div>
+            <div class="captures-grid">
+
+                <div class="capture-card c1 reveal" onclick="openLightbox('Celebretes','Celebrations &amp; Events')">
+                    <img src="assests/celebretes/cover.jpg" alt="Celebrations photography by Peter Lukani" loading="lazy">
+                    <div class="capture-tag">Celebrations</div>
+                    <div class="capture-arrow">↗</div>
+                    <div class="capture-overlay"><div class="capture-info">
+                        <div class="capture-name">Celebretes</div>
+                        <div class="capture-count">Open gallery →</div>
+                    </div></div>
+                </div>
+
+                <div class="capture-card c2 reveal reveal-delay-1" onclick="openLightbox('Models','Portrait Photography')">
+                    <img src="assests/models/cover.JPG" alt="Portrait photography by Peter Lukani" loading="lazy">
+                    <div class="capture-tag">Portraits</div>
+                    <div class="capture-arrow">↗</div>
+                    <div class="capture-overlay"><div class="capture-info">
+                        <div class="capture-name">Models</div>
+                        <div class="capture-count">Open gallery →</div>
+                    </div></div>
+                </div>
+
+                <div class="capture-card c3 reveal reveal-delay-2" onclick="openLightbox('Couples','Love &amp; Romance')">
+                    <img src="assests/couples/cover.JPG" alt="Couples photography by Peter Lukani" loading="lazy">
+                    <div class="capture-tag">Couples</div>
+                    <div class="capture-arrow">↗</div>
+                    <div class="capture-overlay"><div class="capture-info">
+                        <div class="capture-name">Couples</div>
+                        <div class="capture-count">Open gallery →</div>
+                    </div></div>
+                </div>
+
+                <div class="capture-card c4 reveal reveal-delay-1" onclick="openLightbox('Places','Landscapes &amp; Architecture')">
+                    <img src="assests/places/cover.JPG" alt="Places photography by Peter Lukani" loading="lazy">
+                    <div class="capture-tag">Places</div>
+                    <div class="capture-arrow">↗</div>
+                    <div class="capture-overlay"><div class="capture-info">
+                        <div class="capture-name">Places</div>
+                        <div class="capture-count">Open gallery →</div>
+                    </div></div>
+                </div>
+
+                <div class="capture-card c5 reveal reveal-delay-2" onclick="openLightbox('Animals','Wildlife &amp; Nature')">
+                    <img src="assests/animals/Img3.jpg" alt="Animal photography by Peter Lukani" loading="lazy">
+                    <div class="capture-tag">Animals</div>
+                    <div class="capture-arrow">↗</div>
+                    <div class="capture-overlay"><div class="capture-info">
+                        <div class="capture-name">Animals</div>
+                        <div class="capture-count">Open gallery →</div>
+                    </div></div>
+                </div>
+
+                <div class="capture-card c6 reveal reveal-delay-3" onclick="openLightbox('Vehicles','Automotive')">
+                    <img src="assests/vehichles/cover.JPG" alt="Vehicle photography by Peter Lukani" loading="lazy">
+                    <div class="capture-tag">Vehicles</div>
+                    <div class="capture-arrow">↗</div>
+                    <div class="capture-overlay"><div class="capture-info">
+                        <div class="capture-name">Vehicles</div>
+                        <div class="capture-count">Open gallery →</div>
+                    </div></div>
+                </div>
+
+                <div class="capture-card c7 reveal reveal-delay-2" onclick="openLightbox('Gym','Fitness &amp; Lifestyle')">
+                    <img src="assests/gym/cover.JPG" alt="Gym photography by Peter Lukani" loading="lazy">
+                    <div class="capture-tag">Gym</div>
+                    <div class="capture-arrow">↗</div>
+                    <div class="capture-overlay"><div class="capture-info">
+                        <div class="capture-name">Gym</div>
+                        <div class="capture-count">Open gallery →</div>
+                    </div></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" role="dialog" aria-modal="true">
+        <button class="lightbox-close" onclick="closeLightbox()">✕ &nbsp; Close</button>
+        <div class="lightbox-title"    id="lightboxTitle"></div>
+        <div class="lightbox-subtitle" id="lightboxSubtitle"></div>
+        <div class="lightbox-grid"     id="lightboxGrid"></div>
+    </div>
+
+    <!-- CONTACT -->
+    <section id="contact" aria-label="Contact and Booking">
+        <div class="contact-inner">
+            <div class="section-header reveal">
+                <p class="section-tag">Get in Touch</p>
+                <h2 class="section-title">Let's capture<br>your <em>story</em></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h3>Every photo should tell a unique story — <em>your</em> story.</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📸</div>
+                        <div>
+                            <p class="contact-label">Instagram</p>
+                            <p class="contact-value"><a href="https://www.instagram.com/peterlphotography/" target="_blank" rel="noopener">@peterlphotography</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <p class="contact-label">Email</p>
+                            <p class="contact-value"><a href="mailto:peterlukaniphotography@gmail.com">peterlukaniphotography@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <p class="contact-label">WhatsApp / Viber</p>
+                            <p class="contact-value"><a href="tel:+46738995398">+46 738 995 398</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <p class="contact-label">Location</p>
+                            <p class="contact-value">Stockholm, Sweden<br><span style="color:var(--muted);font-size:13px;">Available for travel worldwide</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-form reveal reveal-delay-2">
+                    <h3>Quick Booking</h3>
+                    <div id="bookingForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>First Name</label>
+                                <input type="text" id="fname" placeholder="Peter">
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <input type="text" id="lname" placeholder="Lukani">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" id="email" placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Package</label>
+                            <select id="pkg">
+                                <option value="">Select a package…</option>
+                                <option>Basic — 3,000 SEK (1.5 hrs)</option>
+                                <option>Basic Plus — 5,000 SEK (3 hrs)</option>
+                                <option>Premium — 7,000 SEK (5 hrs)</option>
+                                <option>Premium Plus — 8,000 SEK (8 hrs)</option>
+                                <option>Deluxe — 12,000 SEK (12 hrs)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Tell me about your vision</label>
+                            <textarea id="msg" placeholder="Describe your event, preferred date, and any special requests…"></textarea>
+                        </div>
+                        <button class="form-submit" onclick="submitForm()">Send Enquiry →</button>
+                    </div>
+                    <div class="form-success" id="formSuccess">
+                        <p>✦ Thank you, your enquiry has been sent!</p>
+                        <p style="font-size:15px;color:var(--muted);margin-top:12px;font-style:normal;">Peter will be in touch within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer aria-label="Site footer">
+        <div class="footer-logo">Peter <span>Lukani</span> Photography</div>
+        <address class="footer-copy" style="font-style:normal;">© 2024 · Stockholm, Sweden</address>
+        <nav class="footer-links" aria-label="Footer navigation">
+            <a href="https://www.instagram.com/peterlphotography/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="mailto:peterlukaniphotography@gmail.com">Email</a>
+            <a href="#hero">Back to top ↑</a>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

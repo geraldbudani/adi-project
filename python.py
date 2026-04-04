@@ -7,5 +7,5 @@ def iterate_through_files(directory):
             print(file_path)
 
 # specify the directory you want to iterate through
-directory = 'fotot/valeria'
+directory = 'C:\\Users\\AG\\OneDrive\\Desktop\\adi-project-main\\adi-project-main\\assests\\gym'
 iterate_through_files(directory)
